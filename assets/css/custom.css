@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,400i|Raleway:400,700');
+
+body{
+	font-family:'Cabin',sans-serif;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 0px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color:#FFF;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+.m-why{
+	font-family:'Raleway',sans-serif;
+	background:#E74C3C;
+	width:100%;
+	margin-top:0;
+	padding-top:20px;
+	color:white;
+}
+.m-why-detail{
+	text-align:center;
+	font-size:16px;
+	font-weight:1;
+}
+.m-jdimg{
+	text-align:justify;
+}
+.m-jdimg img{
+	width:100%;
+}
+.about-us{
+	background:#67809F;
+	width:100%;
+	text-align:center;
+	color:#FFF;
+}
+.ab-profile img{
+	width:100px;
+}
+.socmed{
+	width:105px;
+}
+.socmed img{
+	width:20px;
+	float:left;
+}
+.footer{
+	padding:20px;
+}
+.detail-ricko, .detail-mia{
+	display:none;
+}
+
+
+/* NAVIGATION */
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    text-transform: uppercase;
+    background-color: #E74C3C;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li.active {
+    outline: none;
+    background-color: rgba(231, 76, 60, 0.44);
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+    outline: 0;
+    background-color: #a24d44;
+	color:#FFF;
+}
+.navbar-custom .navbar-toggle {
+    border-color: #EEE;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+		background-color: #E74C3C;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: none;
+    }
+}
+.def-top-nav-collapse{
+	padding: 0;
+	background-color: #E74C3C;
+}
+
+.navbar-custom.def-top-nav-collapse {
+	border-bottom: none;
+}
+/* END NAVIGATION */
+
+/* search form */
+.navbar-form .btn-default{
+	background:transparent;
+	color:#FFF;
+	border-color:#FFF;
+}
+.navbar-form .form-control{
+	background:transparent;
+	color:#FFF;
+	border-color:#FFF;
+	width:400px !important;
+}
+.navbar-form .form-control::-webkit-input-placeholder {
+   color: #FFF;
+}
+
+.navbar-form .form-control:-moz-placeholder { /* Firefox 18- */
+   color: #FFF;  
+}
+
+.navbar-form .form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: #FFF;  
+}
+
+.navbar-form .form-control:-ms-input-placeholder {  
+   color: #FFF;  
+}
+@media(max-width:767px) {
+	.navbar-form .form-control{
+		width:100% !important;
+	}
+}
+
+.item-img img{
+	width:100%;
+	height:180px;
+}
+.panel-body{
+	padding:0 !important;
+}
+.panel-heading{
+	text-align:center;
+	font-weight:bold;
+}
+@media(max-width:767px) {
+	.item-img img{
+		width:100%;
+		height:auto;
+	}
+}
+
+.shopping-item{
+	width:300px;
+	background:#FFF !important;
+	padding-bottom:0;
+	max-height:500px;
+	overflow: auto;
+}
+.shopping-item img{
+	width:80px;
+}
+.image_deskripsi_item img{
+	width:100%;
+}
+.cart-gambar{
+	width:200px !important;
+}
+.bayar-gambar{
+	width:100px !important;
+}
+.stok_red{
+	color: red;
+}
+.detail-pembayaran hr{
+	border-color:#000 !important;
+}
+.profile-input-default{
+	border:none !important;
+	background:#FFF !important;
+	box-shadow:none;
+}
